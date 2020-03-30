@@ -8,6 +8,7 @@ const App = () => {
     fetch('https://gitconnected.com/v1/portfolio/harrisonms')
     .then(res => res.json())
     .then(user => {
+      console.log(user)
       setUser(user)
     });
   }, []);

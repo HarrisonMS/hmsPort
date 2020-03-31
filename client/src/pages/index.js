@@ -1,11 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Me from './Me';
-import Projects from './Projects';
-import Work from './Work';
-import Education from './Education';
+import Me from './me';
+import Projects from './projects';
+import Work from './work';
+import Education from './education';
 
 const Pages = ({ user }) => {
+  console.log(user)
   return (
     <Router>
       <Switch>

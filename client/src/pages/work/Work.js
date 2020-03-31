@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Work = ({ user }) => {
+  console.log('work user',user)
   return (
     <div>
       <h1>

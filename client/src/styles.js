@@ -14,8 +14,8 @@ export const Pill = styled.span`
   margin-right: 0.75rem;
   margin-bottom: 0.75rem;
   padding: 0.5rem 1rem;
-  background-color: purple;
-  color: purple;
+  background-color: #345439;
+  color: black;
   border: 2px solid #2ecc40;
   border-radius: 2px;
   font-weight: bold;
